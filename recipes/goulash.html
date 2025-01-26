@@ -5,6 +5,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Goulash</title>
+	<link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
@@ -17,34 +18,37 @@
 	<p>
 		American <strong>goulash</strong> is something that I've had all my life but never knew there was a name for it. It's absolutely <em>delicious</em> and accepts a wide choice of ingredients. I might have to start doing my meal preps with this soon! 
 	</p>
-	<h2>Ingredients</h2>
-	<p>
-		<ul>
-			<li>olive oil</li>
-			<li>ground <strong>beef</strong></li>
-			<li>onion, diced</li>
-			<li>garlic</li>
-			<li>bay leaves</li>
-			<li>chicken broth</li>
-			<li>marinara sauce</li>
-			<li>can diced tomatoes</li>
-			<li>soy sauce</li>
-			<li>elbow macaroni</li>
-			<li>parsley</li>
-		</ul>
-	</p>
+	<h2 id="ingredients">Ingredients</h2>
+
+	<ul class="violet">
+		<li>olive oil</li>
+		<li>ground <strong class="beef">beef</strong></li>
+		<li>onion, diced</li>
+		<li>garlic</li>
+		<li>bay leaves</li>
+		<li>chicken broth</li>
+		<li id="marinara" class="box">marinara sauce</li>
+		<li class="box">can diced tomatoes</li>
+		<li class="soy-sauce">soy sauce</li>
+		<li id="elbow-macaroni">elbow macaroni</li>
+		<li>parsley</li>
+	</ul>
+
 	<h2>Steps</h2>
-	<p>
-		<ol>
-			<li>Boil the macaroni</li>
-			<li>Brown the onions</li>
-			<li>Cook the <strong><em>BEEF</em></strong></li>
-			<li>Add the macaroni, spices, and other ingredients</li>
-			<li>Mix</li>
-			<li>Let it cook</li>
-			<li><em>Enjoy!</em></li>
-		</ol>
+	<p class="violet">
+		This text is violet because it is under the class 'violet', but the numbered list below <em>does not</em> inherit it because this is a paragraph container, not a div. On the contrary, the following div container does pass inheritance to the p element within it  
 	</p>
+	<div class="violet box"> owo <p>uwu</p> </div>
+	<ol>
+		<li class="funny-child">Boil the macaroni</li>
+		<li>Brown the onions</li>
+		<li>Cook the <strong class="beef"><em>BEEF</em></strong></li>
+		<li class="good">Add the macaroni, spices, and other ingredients</li>
+		<li>Mix</li>
+		<li>Let it cook</li>
+		<li><em>Enjoy!</em></li>
+	</ol>
+	
 </body>
 
 </html>

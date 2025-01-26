@@ -24,4 +24,62 @@ li.big-and-mighty.ramen {
 
 }
 
+/* Styles purely for recipe pages */
 
+h2 {
+    font-weight: 200;
+    text-decoration: overline;
+}
+
+#ingredients {
+    font-style: italic;
+    color: aqua;
+}
+
+.beef {
+    color: red;
+    font-weight: 900;
+    font-size: 36px; 
+    background-color: blue;
+    text-decoration: underline;
+}
+
+li.good {
+    color:green;
+    font-size: 26px;
+}
+
+.violet {
+    color:violet;
+}
+
+.box {
+    border: medium solid;
+}
+
+/* Woa - a chained *and* descendant combinator selector */
+.violet.box p {
+    border: inherit; 
+}
+
+ol .funny-child {
+    background-color: rebeccapurple;
+}
+
+ul.violet .box{
+    color: blue; 
+    background-color: pink;
+}
+
+#marinara{
+    font-weight: 1000;
+    color: red;
+}
+
+.soy-sauce, #elbow-macaroni {
+    background-color: burlywood;
+}
+
+.soy-sauce {
+    color: brown;
+}
