@@ -83,3 +83,13 @@ ul.violet .box{
 .soy-sauce {
     color: brown;
 }
+
+/* Three type selectors! */
+
+div ul li {
+    color: magenta
+}
+
+.answer-to-the-question {
+    color: blue;
+}
