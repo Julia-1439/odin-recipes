@@ -100,6 +100,7 @@ div ul li {
 .ramen-title {
     background: tan;
     padding: 8px;
+    border: 4px dashed brown;
 }
 
 .ramen-picture {
@@ -111,5 +112,19 @@ div ul li {
 .ramen-card {
     background: #ECECEC;
     padding: 0 16px 16px 16px;
+    border: 2px solid lightgray;
+    margin-bottom: 16px;
 }
 
+.awesome-box {
+    box-sizing: border-box;
+    width: 500px;
+    margin: 16px auto;
+    padding: 32px;
+    color: blue;
+    background: lime;
+}
+
+.ramen-steps {
+    font-weight: bold;
+}
