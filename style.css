@@ -123,6 +123,7 @@ div ul li {
     padding: 32px;
     color: blue;
     background: lime;
+    text-align: right;
 }
 
 .ramen-steps {
