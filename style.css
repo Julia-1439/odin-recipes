@@ -93,3 +93,12 @@ div ul li {
 .answer-to-the-question {
     color: blue;
 }
+
+
+
+/* Selectors for Ramen Page */
+.ramen-title {
+    background: tan;
+    padding: 8px;
+}
+
