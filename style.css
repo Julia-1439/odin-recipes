@@ -129,3 +129,37 @@ div ul li {
 .ramen-steps {
     font-weight: bold;
 }
+
+.ramen-button-inline {
+    
+    border: 2px solid black;
+    padding: 16px;
+    display: inline;
+    width: 64px;
+
+}
+
+/* Notice how the vertical margins and width are not regarded for links, which are inline elements. */
+.ramen-link {
+    width: 2200px; 
+    margin: 60px;
+    border: 2px solid black;
+}
+
+/* Removing inline-block property here would reduce the width down to just the length of the text, using only as much width as needed. */
+/* And it would allow the vertical margins to apply. */
+.ramen-link-inline-block {
+    display: inline-block;
+    width: 900px;
+    margin: 60px
+}
+
+/* Span tags are used to markup inline elements */
+.ramen-span {
+    color: aqua;
+    font-weight: bold;
+}
+
+
+/* Summary: a block-level element starts on a new line and takes up the full width available. */
+/* An inline elemnets does not start on a new line and only takes up as much width as necessary.  */
